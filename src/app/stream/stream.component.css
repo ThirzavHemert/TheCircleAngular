@@ -1,0 +1,70 @@
+body {
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+span {
+  font-weight: bold;
+}
+
+.container-fluid {
+  position: absolute;
+  width: calc(50% - 40px);
+  margin: 20px;
+  float: right;
+  right: 0;
+}
+
+.overlay {
+  height: 100vh;
+}
+
+.video-box {
+  position: absolute;
+  object-fit: cover;
+  width: 50%;
+  height: 100%;
+}
+
+.messages {
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  background-color: #ffce7a;
+  border: solid 1px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.msgItem:nth-child(even) {
+  background: lightgray;
+}
+
+.msgItem:nth-child(odd) {
+  background: white;
+}
+
+.msgItem {
+  /* border-top: solid 1px lightgray;
+  border-bottom: solid 1px lightgray; */
+  padding: 3px;
+  margin: 0;
+}
+
+hr {
+  border: solid 1px #ed8a3e;
+}
+
+.btn {
+  background-color: #ed8a3e;
+  color: white;
+  border: 2px solid #ed8a3e;
+  padding: 5px;
+}
+
+.btn:hover {
+  background-color: white;
+  border: 2px solid #ed8a3e;
+  color: black;
+  padding: 5px;
+}
